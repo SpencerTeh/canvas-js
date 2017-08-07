@@ -1,15 +1,15 @@
 $(document).ready(function(){
     
-    var dotMargin = 5;
-    var numRows = 10;
-    var numCols = 10;
+    var dotMargin = 2;
+    var numRows = 20;
+    var numCols = 25;
     // calculate dot sizes and position 
     
     // set width and height on attribute of canvas
     var canvas = $('canvas.dots');
     var context = canvas[0].getContext('2d');
-    var canvasWidth = canvas.width(300);
-    var canvasHeight = canvas.height(300);
+    var canvasWidth = canvas.width();
+    var canvasHeight = canvas.height();
     canvas.attr({ height: canvas.height(), width: canvas.width() });
     
     // setting the margins between the dot sizes and positions.

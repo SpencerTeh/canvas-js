@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+canvas.dots {
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+
+.agency-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.agency-col:nth-child(1) {
+    flex: 1;
+    background: #ff4261;
+}
+
+.agency-col:nth-child(2) {
+    flex: 1;
+    background: #3bff69;
+}
+
+.agency-col:nth-child(3) {
+    flex: 1;
+    background: #ffd14f;
+}
